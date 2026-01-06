@@ -1,0 +1,10 @@
+{
+  "drop_na": true,
+  "drop_duplicates": true,
+  "data_type_corrections": {
+    "Order ID": "int",
+    "Price Each": "float"
+  },
+  "remove_columns": ["Purchase Address"],
+  "profiling": false
+}
